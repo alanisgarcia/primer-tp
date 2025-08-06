@@ -4,3 +4,32 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.search {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.status {
+  font-size: 12px;
+  color: grey;
+}
+
+.chat {
+  display: flex;
+  justify-content: end;
+  align-self: flex-end;
+}
