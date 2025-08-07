@@ -5,6 +5,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body section {
+  display: flex;
+  height: 100vh;
+  align-items: flex-start;
+}
+
 .search {
   border-radius: 5px;
   padding: 10px;
@@ -40,4 +46,6 @@ img {
 .chat {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
 }
