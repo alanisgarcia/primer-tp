@@ -13,14 +13,18 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 img {
-  width: 50px;
+  width: 42px;
+  margin: 5px;
 }
 
 .contact {
   display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .status {
@@ -28,8 +32,12 @@ img {
   color: grey;
 }
 
+.status span {
+  font-size: 6px;
+  vertical-align: middle;
+}
+
 .chat {
   display: flex;
-  justify-content: end;
-  align-self: flex-end;
+  flex-direction: column;
 }
