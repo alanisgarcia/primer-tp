@@ -14,12 +14,14 @@ body section {
 .search {
   border-radius: 5px;
   padding: 10px;
+  border: 1px solid #bebfc0;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 30px;
 }
 
 img {
@@ -48,4 +50,22 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
+  border: 0.1px solid #bebfc0;
+}
+
+.chat section {
+  border: 0.1px #bebfc0;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.aiden {
+  background-color: #efefef;
+  border-radius: 8px;
+
 }
