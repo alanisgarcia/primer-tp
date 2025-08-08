@@ -2,13 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body section {
   display: flex;
   height: 100vh;
   align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .search {
@@ -61,8 +61,10 @@ img {
 .chat-header {
   display: flex;
   align-items: center;
+  width: 82vh;
   gap: 5px;
   padding: 10px;
+  font-size: 14px;
 }
 
 .aiden {
@@ -75,5 +77,13 @@ img {
   width: 100vh;
   display: flex;
   justify-content: end;
+  padding: 25px 1px;
   gap: 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
 }
