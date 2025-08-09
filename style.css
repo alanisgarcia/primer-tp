@@ -112,3 +112,24 @@ button {
   border-radius: 5px;
   margin: 5px;
 }
+
+.timestamp {
+  display: inline-block;
+  color: grey;
+  font-size: 12px;
+}
+
+.chat-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  gap: 15px;
+}
+
+.enter-text {
+  padding: 6px 420px;
+  border: 1px solid #bebfc0;
+  border-radius: 5px;
+  font-display: start;
+}
