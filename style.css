@@ -92,6 +92,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  background-color: #f7f8fa;
+  margin-bottom: 40vh;
+  padding: 10px;
 }
 
 .message-sent {
