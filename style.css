@@ -87,6 +87,12 @@ img {
   background-color: white;
 }
 
+.aiden-chat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .chat-actions {
   width: 100vh;
   display: flex;
@@ -150,8 +156,28 @@ button {
 @media (max-width:480px) {
 
   .sidebar {
-    background-color: aqua;
-    opacity: 0;
     display: none;
+  }
+
+  .aiden-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vh;
+    gap: 5px;
+  }
+
+  .aiden-chat h3,
+  p {
+    width: 30vh;
+  }
+
+  .chat-actions {
+    background-color: aqua;
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    padding: 0px 70px;
   }
 }
