@@ -58,6 +58,25 @@ img {
   border: 0.1px #bebfc0;
 }
 
+.aiden {
+  background-color: #efefef;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.timestamp {
+  display: inline-block;
+  color: grey;
+  font-size: 12px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f8fa;
+}
+
 .chat-header {
   display: flex;
   align-items: center;
@@ -66,20 +85,6 @@ img {
   padding: 10px;
   font-size: 14px;
   background-color: white;
-}
-
-.aiden {
-  background-color: #efefef;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.chat {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: #f7f8fa;
-
 }
 
 .chat-actions {
@@ -126,12 +131,6 @@ button {
   margin: 5px;
 }
 
-.timestamp {
-  display: inline-block;
-  color: grey;
-  font-size: 12px;
-}
-
 .chat-footer {
   display: flex;
   justify-content: center;
@@ -146,4 +145,13 @@ button {
   border: 1px solid #bebfc0;
   border-radius: 5px;
   font-display: start;
+}
+
+@media (max-width:480px) {
+
+  .sidebar {
+    background-color: aqua;
+    opacity: 0;
+    display: none;
+  }
 }
