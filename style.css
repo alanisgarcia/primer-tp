@@ -6,14 +6,13 @@
 
 body section {
   display: flex;
-  height: 100vh;
   align-items: flex-start;
   font-family: Arial, Helvetica, sans-serif
 }
 
 .search {
   border-radius: 5px;
-  padding: 7px 35px;
+  padding: 8px 15px;
   border: 1px solid #bebfc0;
 }
 
@@ -22,6 +21,9 @@ body section {
   flex-direction: column;
   gap: 10px;
   padding: 15px;
+  height: 100vh;
+  width: 40%;
+  border: 0.1px solid #bebfc0;
 }
 
 img {
@@ -46,17 +48,6 @@ img {
   vertical-align: middle;
 }
 
-.chat {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100vh;
-  border: 0.1px solid #bebfc0;
-}
-
-.chat section {
-  border: 0.1px #bebfc0;
-}
 
 .aiden {
   background-color: #efefef;
@@ -74,17 +65,17 @@ img {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
   background-color: #f7f8fa;
 }
 
 .chat-header {
   display: flex;
   align-items: center;
-  width: 82vh;
+  width: 100%;
   gap: 5px;
   padding: 10px;
   font-size: 14px;
-  background-color: white;
   border-bottom: 0.1px solid #bebfc0;
 }
 
@@ -95,12 +86,11 @@ img {
 }
 
 .chat-actions {
-  width: 100vh;
+  width: 100%;
   display: flex;
   justify-content: end;
-  padding: 26px 1px;
+  padding: 26px 10px;
   gap: 10px;
-  background-color: white;
   border-bottom: 0.1px solid #bebfc0;
 }
 
@@ -143,19 +133,23 @@ button {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding: 10px;
+  padding: 15px;
   gap: 15px;
-  background-color: white;
+  margin-top: 9px;
 }
 
 .enter-text {
-  padding: 6px 420px;
+  flex: 1;
+  padding: 6px 12px;
   border: 1px solid #bebfc0;
   border-radius: 5px;
-  font-display: start;
 }
 
 @media (max-width:480px) {
+
+  * {
+    width: 30vh;
+  }
 
   .sidebar {
     display: none;
@@ -180,12 +174,24 @@ button {
   }
 
   .chat-actions {
-    width: 1%;
     display: flex;
     justify-content: flex-end;
     align-self: center;
     padding: 0px 50px;
     border-bottom: 0.1px solid #bebfc0;
     height: 100%;
+    width: 100%;
   }
+
+  .chat-messages {
+    display: block;
+  }
+
+  .message-sent {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .chat-footer {}
 }
