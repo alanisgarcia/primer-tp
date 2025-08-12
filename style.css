@@ -177,19 +177,25 @@ button {
     width: 30vh;
   }
 
+  .chat {
+    width: 100vh;
+  }
+
   .chat-actions {
     display: flex;
     justify-content: flex-end;
     align-self: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     border-bottom: 0.1px solid #bebfc0;
     height: 100%;
-    width: 100%;
+    width: 40vh;
   }
+
 
   .chat-messages {
     display: block;
     height: 35vh;
+    width: 80vh;
   }
 
   .message-sent {
