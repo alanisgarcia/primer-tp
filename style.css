@@ -152,7 +152,7 @@ button {
 @media (max-width:480px) {
 
   * {
-    width: 30vh;
+    width: 35vh;
   }
 
   .sidebar {
@@ -160,7 +160,7 @@ button {
   }
 
   .chat-header {
-    width: 65vh;
+    width: 40vh;
     border-bottom: 0.1px solid #bebfc0;
   }
 
@@ -189,6 +189,7 @@ button {
 
   .chat-messages {
     display: block;
+    height: 35vh;
   }
 
   .message-sent {
@@ -197,5 +198,18 @@ button {
 
   }
 
-  .chat-footer {}
+  .chat-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 80vh;
+  }
+
+  .enter-text {
+    padding: 5px 20px;
+  }
+
+  .chat-footer button {
+    width: 5%;
+  }
+
 }
