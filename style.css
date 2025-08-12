@@ -36,6 +36,12 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #efefef;
+  border-radius: 5px;
 }
 
 .status {
@@ -53,6 +59,7 @@ img {
   background-color: #efefef;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .timestamp {
@@ -102,6 +109,12 @@ button {
   border: none;
   font-size: 20px;
   line-height: 1;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #dad9d9;
+  border-radius: 5px;
 }
 
 .chat-messages {
